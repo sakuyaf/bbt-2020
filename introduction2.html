@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="css/btn.css">
+<link rel="stylesheet" href="css/introduction2.css">
+<link rel="stylesheet" href="swiper-5.3.6/package/css/swiper.min.css">
+<script src="swiper-5.3.6/package/js/swiper.min.js"></script>
+
+<body>
+<div class="allpage">
+    <h1>十大部门介绍</h1>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="dept">策划推广部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">人力资源部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">综合管理部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">视觉设计部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">综合新闻部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">技术部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">外联部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">节目部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">视频部</div>
+            <div class="text"><p></p></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="dept">编辑部</div>
+            <div class="text"><p></p></div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+    <div class="btn1"><button onclick="window.location='sheet.html'" class="btn_intro2">立即报名</button></div>
+</div>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true, // 循环模式选项
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        // 如果需要滚动条
+    })
+</script>
+</body>
+</html>

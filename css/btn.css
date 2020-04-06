@@ -1,0 +1,79 @@
+.btn_index1{
+    background-image: url("../image/各种图片/按钮a.png");
+    width:462px;
+    height:121px;
+    border:none;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    border-radius: 60px;
+
+}
+.btn_index2{
+    background-image: url("../image/各种图片/按钮b.png");
+    width:462px;
+    height:121px;
+    border:none;
+    font-size: 60px;
+    text-align: center;
+    color:rgb(11,60,68);
+    border-radius: 60px;
+}
+.btn_intro{
+    background-image: url("../image/各种图片/按钮c.png");
+    width:578px;
+    height:121px;
+    border:none;
+    font-size:40px;
+    text-align: center;
+    color:rgb(11,60,68);
+    border-radius:60px;
+    margin-top: 120px;
+}
+.btn_intro2{
+    background-image: url("../image/各种图片/按钮a.png");
+    width:462px;
+    height:121px;
+    border:none;
+    text-align: center;
+    color:white;
+    border-radius:60px;
+    font-size: 64px;
+}
+.btn_sheet{
+    background-image: url("../image/各种图片/按钮e.png");
+    width:355px;
+    height:121px;
+    border:none;
+    text-align: center;
+    color:rgb(11,60,68);
+    border-radius:60px;
+    font-size: 64px;
+    position: relative;
+    top:200px;
+}
+.btn_result{
+    background-image: url("../image/各种图片/按钮e.png");
+    width:355px;
+    height:121px;
+    border:none;
+    text-align: center;
+    color:rgb(11,60,68);
+    border-radius:60px;
+    font-size: 64px;
+    position: relative;
+    top:1300px
+}
+.btn_search{
+    background-image: url("../image/各种图片/按钮e.png");
+    width:355px;
+    height:121px;
+    border:none;
+    text-align: center;
+    color:rgb(11,60,68);
+    border-radius:60px;
+    font-size: 64px;
+    position: relative;
+    top:400px;
+    left:-250px;
+}

@@ -1,0 +1,50 @@
+.allpage{
+    text-align: center;
+    background-image: url("../image/各种图片/背景十大部门.png");
+    background-size: 100%,100%;
+    width: 1082px;
+    height: 3185px;
+}
+.btn{
+    padding-top: 390px;
+}
+.btn1{
+    position: relative;
+    left: -50px;
+}
+.btn2{
+    position: relative;
+    padding-left: 70px;
+}
+.btn3{
+    position: relative;
+    left: -50px;
+}
+.btn4{
+    position: relative;
+    padding-left: 70px;
+}
+.btn5{
+    position: relative;
+    left: -50px;
+}
+.btn6{
+    position: relative;
+    padding-left: 70px;
+}
+.btn7{
+    position: relative;
+    left: -50px;
+}
+.btn8{
+    position: relative;
+    padding-left: 70px;
+}
+.btn9{
+    position: relative;
+    left: -50px;
+}
+.btn10{
+    position: relative;
+    padding-left: 70px;
+}

@@ -1,0 +1,38 @@
+.allpage{
+    text-align: center;
+    background-image: url("../image/各种图片/背景e.png");
+    background-size: 100%100%;
+}
+h1{
+    color:rgb(11,60,68);
+    font-size: 96px;
+}
+.indextitle{
+    padding-top:225px;
+    width:672px;
+    margin: 0 auto;
+}
+.indextext{
+    color:rgb(11,60,68);
+    font-size: 48px;
+    width:672px;
+    margin:0 auto;
+}
+p{
+    margin-top:100px;
+}
+.btn1{
+    margin:0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn2{
+    margin:0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn3{
+    margin:0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

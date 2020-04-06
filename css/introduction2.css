@@ -1,0 +1,23 @@
+.allpage{
+    text-align: center;
+    background-image:url("../image/各种图片/背景a.png");
+    width: 1080px;
+    height: 1920px;
+}
+h1{
+    font-size: 96px;
+    margin-top: 0px;
+    padding-top: 250px;
+}
+.dept{
+    font-size: 88px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.btn1{
+    padding-top: 100px;
+}
+.text{
+    width:576px;
+    height: 700px
+}
