@@ -8,7 +8,8 @@ def sumbit():
     data = request.get_json()
     if findUser(data["name"]):
         return{'errcode':400,'errmsg':'您以经报名~~'},400
-    checkEmpty(data)
+    if checkEmpty(data):
+        return checkEmpty(data)
     if checkPhone(data["phonenumber"]):
         return {'errcode':400,'errmsg':'输入的手机号码有误'},400
     rowcount = submitin(data)

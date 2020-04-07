@@ -1,7 +1,7 @@
 from config import db
 from flask import abort
 import mysql.connector
-conn=mysql.connector.connect(host='localhost',user='Williams',passwd='bbtzetao',database='bbt',charset='utf8mb4')
+conn=mysql.connector.connect(host=db["host"],user=db["user"],passwd=db["password"],database=db["database"],charset='utf8mb4')
 db=conn.cursor()
 
 def checkPhone(phoneNumber):
@@ -26,4 +26,5 @@ def checkEmpty(data):
         }
     for key in user:
         if data[key]==""or data[key].isspace():
-            abort(400,description=user[key]+"为空")
+            return{'errcode':400,'errmsg':user[key]+'为空'}
+    return 0
